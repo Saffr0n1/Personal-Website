@@ -562,8 +562,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25em;
-		line-height: 1.25em;
-		letter-spacing: -0.05em;
+		line-height: 2.25em;
+		letter-spacing: .025em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -641,6 +641,32 @@ input, select, textarea {
 			}
 
 				.box.style2 {
+					padding: 1.5em 1.25em 1.5em 1.25em;
+					background-color: rgba(255, 255, 255, 0.9);
+				}
+
+		}
+
+	.boxx {
+		color: #39454b;
+		padding: 2em;
+	}
+
+		.boxx > :last-child {
+			margin-bottom: 0;
+		}
+
+		.boxx.style2 {
+			padding: 3.5em 2.5em 3.5em 2.5em;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.boxx {
+				padding: 1em;
+			}
+
+				.boxx.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
 					background-color: rgba(255, 255, 255, 0.9);
 				}
@@ -2263,14 +2289,28 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/harvard.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#research {
+		background: url("images/overlay.png"), url("../../images/stars.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#projects {
+		background: url("images/overlay.png"), url("../../images/chinatown.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
 	#writing {
-		background: url("images/overlay.png"), url("../../images/chinatown.jpg");
+		background: url("images/overlay.png"), url("../../images/park.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2317,3 +2357,138 @@ input, select, textarea {
 			}
 
 		}
+
+{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font-family: poppins, sans-serif;
+}
+
+.main-nav {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	height: 150px;
+}
+
+.main-nav li {
+	list-style: none;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #000;
+	transform: rotate(45deg);
+	transition: 0.5s;
+	margin: -100px;
+	overflow: hidden;
+	opacity: 0.5;
+}
+
+.main-nav li:hover {
+	opacity: 1;
+	transform: scale(2);
+	z-index: 1;
+}
+
+.main-nav li.item1 {
+	top: -100%;
+	left: 25%;
+}
+
+.main-nav li.item2 {
+	bottom: 0;
+	left: 25%;
+}
+
+.main-nav li.item3 {
+	top: 0;
+	left: 50%;
+}
+
+.main-nav li.item4 {
+	bottom: 0;
+	left: 75%;
+}
+
+.main-nav li.item6 {
+	top: -100%;
+	left: 75%;
+}
+
+.main-nav li.item7 {
+	top:0;
+	left:0;
+}
+
+.main-nav li.item8 {
+	top:0;
+	left: 100%;
+}
+
+.main-nav li .bg {
+	width: 100%;
+	height: 100%;
+	transform: scale(1.1);
+}
+
+.main-nav li.item1 .bg {
+	background: #6A00F4;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav li.item2 .bg {
+	background: #8900F2;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav li.item3 .bg {
+	background: #A100F2;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav li.item4 .bg {
+	background: #B100E8;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav li.item6 .bg {
+	background: #BC00DD;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav li.item8 .bg {
+	background: #D100D1;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav li.item7 .bg {
+	background: #2D00F7;
+	background-size: cover;
+	background-position: center;
+}
+
+p.desc {
+  z-index:999;
+	position: absolute;
+	top: 10px;
+	padding: 10px;
+	font-family: "Source Sans Pro", "sans-serif";
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1em;
+	color: #ffffff;
+	letter-spacing: 0.025em;
+}
+p.desc:hover {
+}
