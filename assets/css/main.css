@@ -2479,7 +2479,7 @@ body.is-touch .main {
 }
 
 p.desc {
-    z-index: 999;
+    z-index: 998;
     position: absolute;
     top: 10px;
     padding: 10px;
