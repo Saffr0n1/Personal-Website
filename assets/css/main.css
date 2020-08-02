@@ -656,7 +656,7 @@ p, ul, ol, dl, table {
     padding: 0em 2.5em 0em 2.5em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 900px) {
 
     .boxx {
         padding: 1em;
@@ -2386,7 +2386,7 @@ body.is-touch .main {
     transition: 0.5s;
     margin: -100px;
     overflow: hidden;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .main-nav li:hover {
@@ -2437,43 +2437,43 @@ body.is-touch .main {
 }
 
 .main-nav li.item1 .bg {
-    background: #6A00F4;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
 
 .main-nav li.item2 .bg {
-    background: #8900F2;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
 
 .main-nav li.item3 .bg {
-    background: #A100F2;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
 
 .main-nav li.item4 .bg {
-    background: #B100E8;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
 
 .main-nav li.item6 .bg {
-    background: #BC00DD;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
 
 .main-nav li.item8 .bg {
-    background: #D100D1;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
 
 .main-nav li.item7 .bg {
-    background: #2D00F7;
+    background: #2c3f52;
     background-size: cover;
     background-position: center;
 }
@@ -2484,10 +2484,10 @@ p.desc {
     top: 10px;
     padding: 10px;
     font-family: "Source Sans Pro", "sans-serif";
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1em;
     line-height: 1em;
-    color: #ffffff;
+    color: mediumspringgreen;
     letter-spacing: 0.025em;
 }
 
@@ -2625,7 +2625,7 @@ p.desc:hover {
 
 .grid li {
 	display: inline-block;
-	width: 400px;
+	width: 315px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -2649,13 +2649,13 @@ p.desc:hover {
 	left: 0;
 	padding: 20px;
 	background: #2c3f52;
-	color: #ed4e6e;
+	color: mediumspringgreen;
 }
 
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #ed4e6e;
 }
 
 .grid figcaption a {
@@ -2663,7 +2663,7 @@ p.desc:hover {
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #ed4e6e;
+	background: mediumspringgreen;
 }
 
 .cs-style-1 figcaption {
@@ -2686,11 +2686,11 @@ p.desc:hover {
 }
 
 .cs-style-1 figcaption span {
-    margin-top: 15px;
+    margin-top: 12px;
 	display: block;
 }
 
 .cs-style-1 figcaption a {
-	margin-top: 30px;
+	margin-top: 18px;
 }
 
